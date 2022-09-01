@@ -13,8 +13,16 @@ header{
 nav{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 .nav-links{
-    display:flex
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+/*intro*/
+
+.intro{
+    background-image: url('content/IMG_9780');
 }
