@@ -6,3 +6,15 @@ html, body {
 	background: #fff;
 	color: #000;
 }
+/*Header*/
+header{
+    
+}
+nav{
+    display:flex;
+    flex-direction: row;
+
+}
+.nav-links{
+    display:flex
+}
