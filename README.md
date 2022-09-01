@@ -1,1 +1,1 @@
-# Fornt-end pure css clone of SE Factory website
+# Front-end pure css clone of SE Factory website
