@@ -93,6 +93,15 @@ strong{
 .info-link{
     color:#00DD00;
 }
+.center{
+    text-align: center;
+}
+.btn-black{
+    background-color: black;
+    color:#fff;
+    border-color: #000;
+    margin:15px;
+}
 /*Header*/
 header{
     position: fixed;
@@ -127,6 +136,13 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.centered{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    flex-direction: column;
+}
 /*intro*/
 
 .intro{
@@ -145,9 +161,6 @@ nav{
 
 }
 /*Stats*/
-.stats{
-    height: 100vh;
-}
 /*Stat Cards*/
 .stat{
     color: #0d0;
@@ -171,9 +184,39 @@ nav{
     padding:40px;
     font-weight: bold;
     width: 23vmax;
-    min-width: 372px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
-
+/* Programs section*/
+.programs{
+    padding:10px;
+    background-color: #00DD00;
+}
+.program-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.program{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+/*Partners images*/
+.img-horizontal *{
+    width:100%;
+}
+.media-refs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Newsletter*/
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding:30px;
+}
