@@ -132,8 +132,8 @@ nav{
     cursor: pointer;
 }
 .nav-links *{
-    font-size: 20px;
-    padding:0px 2px;
+    font-size: calc(1vw + 1rem);
+    padding:0px 5px;
 }
 .nav-links{
     color: aliceblue;
