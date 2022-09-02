@@ -124,6 +124,10 @@ nav{
     justify-content: space-between;
     height:20vh;
 }
+.nav-links li:hover{
+    border-bottom: solid 1px white;
+    cursor: pointer;
+}
 .nav-links *{
     font-size: 20px;
     padding:0px 2px;
