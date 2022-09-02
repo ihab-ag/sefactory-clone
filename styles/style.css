@@ -10,6 +10,9 @@ html, body {
     overflow-x: hidden;
 }
 /*general*/
+strong{
+    display:contents;
+}
 .container{
     margin-bottom: 40px;
     display: flex;
@@ -45,6 +48,50 @@ html, body {
     color:white;
     font-size: calc((1.6 - 1) * 1.2vmax + 1rem);
     max-width: 70vmin;
+}
+.img-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.black{
+    color:black;
+}
+.img-container{
+    display: inline-block;
+    width: 40vw;
+    min-width: 500px;
+}
+.header-info{
+    display:inline-block;
+}
+.inline-block{
+    display:inline-block;
+}
+.img{
+    width:40vw;
+    min-width:500px;
+}
+.header-info{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    align-items: center;
+    padding: 0 27px;
+}
+.header-info *{
+    margin-bottom: 31px;
+    padding-left: 62px;
+    width:100%;
+}
+.left{
+    padding-left: 0;
+}
+.info-link{
+    color:#00DD00;
 }
 /*Header*/
 header{
@@ -98,6 +145,9 @@ nav{
 
 }
 /*Stats*/
+.stats{
+    height: 100vh;
+}
 /*Stat Cards*/
 .stat{
     color: #0d0;
@@ -126,3 +176,4 @@ nav{
     flex-wrap: wrap;
     flex-direction: column;
 }
+
