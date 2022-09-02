@@ -107,7 +107,7 @@ strong{
 }
 /*Header*/
 header{
-    position: fixed;
+    position: absolute;
     width:100%;
 }
 .header-icon{
