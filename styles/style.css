@@ -220,3 +220,20 @@ nav{
     background-color: lightgray;
     padding:30px;
 }
+/*Footer*/
+footer{
+    background-color: #000;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vw;
+    justify-content: space-around;
+    padding:5px;
+}
+.icons *{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
