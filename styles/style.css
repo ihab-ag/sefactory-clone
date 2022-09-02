@@ -9,6 +9,43 @@ html, body {
 	color: #000;
     overflow-x: hidden;
 }
+/*general*/
+.container{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+    padding-right: 40px;
+    max-width:60vmax;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.container>*{
+    height:auto;
+    width:100%;
+    margin:25px 0;
+}
+.button{
+    color:white;
+    border-color: #00DD00;
+    border-radius:7px;
+    background-color: #00DD00;
+    height: 8vh;
+    width: 196px;
+    padding: 4px 8px;
+    font-size:  calc((1.6 - 1) * 1.2vmax + 1rem);
+}
+.header{
+    color:white;
+    font-size: calc((3.5 - 1) * 1.2vmax + 1rem);
+}
+.info{
+    color:white;
+    font-size: calc((1.6 - 1) * 1.2vmax + 1rem);
+    max-width: 70vmin;
+}
 /*Header*/
 header{
     position: fixed;
@@ -60,40 +97,32 @@ nav{
     padding-bottom: 3vh;
 
 }
-/*general*/
-.container{
+/*Stats*/
+/*Stat Cards*/
+.stat{
+    color: #0d0;
+    
     margin-bottom: 40px;
+}
+.stat-desc{
+    color:black;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.stat-cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 20px;
+}
+.stat-card{
+    text-align: center;
+    padding:40px;
+    font-weight: bold;
+    width: 23vmax;
+    min-width: 372px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: auto;
-    padding-right: 40px;
-    max-width:60vmax;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.container>*{
-    height:auto;
-    width:100%;
-    margin:25px 0;
-}
-.button{
-    color:white;
-    border-color: #00DD00;
-    border-radius:7px;
-    background-color: #00DD00;
-    height: 8vh;
-    width: 196px;
-    padding: 4px 8px;
-    font-size:  calc((1.6 - 1) * 1.2vmax + 1rem);
-}
-.header-l{
-    color:white;
-    font-size: calc((3.5 - 1) * 1.2vmax + 1rem);
-}
-.info{
-    color:white;
-    font-size: calc((1.6 - 1) * 1.2vmax + 1rem);
-    max-width: 70vmin;
 }
