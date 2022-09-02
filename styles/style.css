@@ -150,6 +150,9 @@ nav{
     width: 80vw;
     flex-direction: column;
 }
+.header-button{
+    width:11.5rem;
+}
 /*intro*/
 
 .intro{
